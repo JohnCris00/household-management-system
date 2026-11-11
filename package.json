@@ -1,0 +1,28 @@
+{
+  "name": "household-management-system",
+  "version": "1.0.0",
+  "description": "**Trello Board:** [View Task Board](https://trello.com/invite/b/6af4907cdf0289371a5b6711/ATTI567c1a676d59d65d09a353d4290d9445AFF95D6B/household-management-system)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnCris00/household-management-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JohnCris00/household-management-system/issues"
+  },
+  "homepage": "https://github.com/JohnCris00/household-management-system#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
