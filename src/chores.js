@@ -1,8 +1,3 @@
-/**
- * Household Management System (HMS) - Chores Module
- * Handles chore creation, assignment, completion, and verification logic.
- */
-
 class ChoreManager {
   constructor(dbConnection) {
     this.db = dbConnection;
