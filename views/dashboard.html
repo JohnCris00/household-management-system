@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard - HMS</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body data-page="dashboard">
+  <header class="nav">
+    <span class="brand">HMS</span>
+    <nav>
+      <a href="/dashboard">Dashboard</a>
+      <a href="/profile">Profile</a>
+      <button id="logout-btn" type="button">Log out</button>
+    </nav>
+  </header>
+  <main class="wrap">
+    <h1 id="welcome">Dashboard</h1>
+    <p id="household" class="sub"></p>
+    <div id="msg" class="msg" hidden></div>
+
+    <section class="stats">
+      <div class="stat"><span class="label">Open chores</span><strong id="stat-chores">-</strong></div>
+      <div class="stat"><span class="label">You owe</span><strong id="stat-owe">-</strong></div>
+      <div class="stat"><span class="label">Owed to you</span><strong id="stat-owed">-</strong></div>
+      <div class="stat"><span class="label">Low-stock items</span><strong id="stat-low">-</strong></div>
+    </section>
+
+    <section class="card">
+      <h2>Your upcoming chores</h2>
+      <ul id="chore-list" class="list"></ul>
+      <p id="chore-empty" class="sub" hidden>Nothing due. Nice work!</p>
+    </section>
+  </main>
+  <script src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Register - HMS</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body data-page="register">
+  <main class="card auth">
+    <h1>Create your account</h1>
+    <p class="sub">Join the Household Management System.</p>
+    <div id="msg" class="msg" hidden></div>
+    <form id="register-form" novalidate>
+      <label>Full name <input type="text" name="full_name" autocomplete="name" maxlength="100" required></label>
+      <label>Email <input type="email" name="email" autocomplete="email" required></label>
+      <label>Password <small>(8 characters or more)</small>
+        <input type="password" name="password" autocomplete="new-password" minlength="8" required></label>
+      <label>Confirm password <input type="password" name="confirm" autocomplete="new-password" required></label>
+      <button type="submit" class="primary">Register</button>
+    </form>
+    <p class="alt">Already have an account? <a href="/login">Log in</a></p>
+  </main>
+  <script src="/js/app.js"></script>
+</body>
+</html>
